@@ -1,0 +1,16 @@
+version: '1.17.2'
+services:
+ minecraft:
+   ports:
+     - "19132:19132"
+   environment:
+     TZ: "Australia/Melbourne"
+     VERSION: "1.17.2.01"
+     PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+     LD_LIBRARY_PATH: "."
+   deploy:
+     resources:
+       limits:
+         memory: 8G
+   volumes:
+     - "~/your-dir:/bedrock-server/data"
