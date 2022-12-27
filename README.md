@@ -1,6 +1,8 @@
 # Minecraft Bedrock Server
 Minecraft Bedrock edition for Docker ( also Synology ) - Forked from glemsom/bedrock-server
 
+Installs the latest Ubuntu Server image from https://www.minecraft.net/en-us/download/server/bedrock 
+
 ## Usage
 
 #### Prerequisites
