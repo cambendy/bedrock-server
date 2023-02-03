@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 # Set Minecraft bedrock versuin
-ENV VERSION=1.19.51.01
+ENV VERSION=1.19.52.01
 ENV TZ=Australia/Melbourne
 
 # Set timezone
