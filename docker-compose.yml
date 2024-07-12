@@ -1,4 +1,4 @@
-version: '1.21.1'
+version: '1.21.2'
 services:
  minecraft:
    ports:
@@ -14,3 +14,5 @@ services:
          memory: 8G
    volumes:
      - "~/your-dir:/bedrock-server/data"
+   stdin_open: true
+   tty: true
